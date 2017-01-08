@@ -1,26 +1,26 @@
 {
-   "abstract" : "Web-Interface to cpancover.com",
+   "abstract" : "Web-Interface to ocr.bionomen.org",
    "author" : [
       "Helmut Wollmersdorfer, <helmut.wollmersdorfer@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Milla version v1.0.4, Dist::Zilla version 5.015, CPAN::Meta::Converter version 2.141170",
+   "generated_by" : "Dist::Milla version v1.0.16, Dist::Zilla version 6.008, CPAN::Meta::Converter version 2.150005",
    "license" : [
       "perl_5"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
-      "version" : "2"
+      "version" : 2
    },
-   "name" : "Wcpancover",
+   "name" : "Wocr",
    "no_index" : {
       "directory" : [
-         "t",
-         "xt",
+         "eg",
+         "examples",
          "inc",
          "share",
-         "eg",
-         "examples"
+         "t",
+         "xt"
       ]
    },
    "prereqs" : {
@@ -31,13 +31,12 @@
       },
       "develop" : {
          "requires" : {
+            "Dist::Milla" : "v1.0.16",
             "Test::Pod" : "1.41"
          }
       },
       "runtime" : {
          "requires" : {
-            "CPAN::Cover::Results" : "0",
-            "CPAN::ReleaseHistory" : "0.10",
             "DBD::SQLite" : "0",
             "DBIx::Class" : "0",
             "DBIx::Class::Candy" : "0",
@@ -66,22 +65,22 @@
          }
       }
    },
-   "release_status" : "testing",
+   "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/wollmers/Wcpancover/issues"
+         "web" : "https://github.com/wollmers/Wocr/issues"
       },
-      "homepage" : "https://github.com/wollmers/Wcpancover",
+      "homepage" : "https://github.com/wollmers/Wocr",
       "repository" : {
          "type" : "git",
-         "url" : "https://github.com/wollmers/Wcpancover.git",
-         "web" : "https://github.com/wollmers/Wcpancover"
+         "url" : "https://github.com/wollmers/Wocr.git",
+         "web" : "https://github.com/wollmers/Wocr"
       }
    },
-   "version" : "0.05",
+   "version" : "0.01",
    "x_contributors" : [
-      "Helmut Wollmersdorfer <helmut.wollmersdorfer@fixpunkt.de>",
       "Helmut Wollmersdorfer <helmut@wollmersdorfer.at>"
-   ]
+   ],
+   "x_serialization_backend" : "Cpanel::JSON::XS version 3.0225"
 }
 
