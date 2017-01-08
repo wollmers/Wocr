@@ -1,2 +1,4 @@
-# ocr-bionomen
-re-OCR selected books
+# NAME
+
+Wocr - Web-Interface of ocr.bionomen.org
+

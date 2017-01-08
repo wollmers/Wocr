@@ -1,0 +1,8 @@
+% layout 'default';
+% title 'Coverage for $book';
+
+<h1>Coverage for book <%=  $book %></h1> 
+
+<br />
+<br />
+

@@ -1,0 +1,24 @@
+<!-- MENUE -->
+<div class="container">                                 
+<div class="row">
+
+<div class="span12 menu2">
+    <ul>
+        <li><a href="">User</a>
+            <ul >
+                <li><a title="Login" href="/user/login">Login</a></li>
+                <li><a title="Portal" href="/user/register">Register</a></li>
+            </ul>
+        </li>
+        <li class="active"><a href="">Test</a>
+            <ul>
+                <li><a title="Serverinfo"  href="/serverinfo">Serverinfo</a></li>
+                <li class="active"><a title="Beispiel"  href="/example">Example</a></li>
+            </ul>
+        </li>       
+    </ul>
+</div>
+
+</div>
+</div>  
+<!-- END MENUE -->

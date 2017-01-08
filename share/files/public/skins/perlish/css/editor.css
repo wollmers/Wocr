@@ -1,0 +1,100 @@
+.c0 { background-color: #ffb3b3; }  /* red */
+.c1 { background-color: #ffd1b4; }  /* orange */
+.c2 { background-color: #ffffB4; }  /* yellow */
+.c3 { background-color: #B4ffB4; }  /* green */
+
+.ocr_page {
+  /* position: relative; */
+  /* top: 0; */
+  display: block;
+  /*float: right; */
+  /* float: left; */
+  overflow-y: scroll; 
+  height:600px;
+  max-height: 100vh;
+  margin-left: 820px; 
+  max-width: 600px;
+  border:  1px #ccc solid;
+}
+
+.editbar {
+  display: block;
+  float: right; 
+  min-width: 20em;
+}
+
+.ocr_carea {
+  /* border:  1px #f00 solid; */
+  margin: 2px;
+}
+.ocr_par {
+  /* border:  1px #0f0 solid; */
+  display: block;
+  margin: 2px;
+}
+.ocr_line {
+  /*font-family: 'BreitkopfFraktur',sans-serif;*/
+  font-size: 1.3em;
+  /* border:  0px #00f solid; */
+  display: block;
+  margin: 0px;
+  text-align: justify; /* TODO */
+}
+
+.ocrx_word {
+  border:  2px transparent solid;
+}
+
+ins {
+  background-color: #ccffcc;
+}
+del {
+  background-color: #ffcccc;
+}
+.scan {
+  width: 800px;
+  height: 600px;
+  float: left;
+  overflow: auto;
+  position: fixed;
+  border:  1px #ccc solid;
+}
+.scan_img {
+  position: fixed;
+  top: 0;
+}
+.scan img {
+  /* width: 600px;
+  height: 400px; 
+  transform: scale(0.5, 0.5); */
+  /* position: relative; */
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+.scan .layer {
+  position: absolute;
+  background: transparent;
+  top: 0px;
+  width: 100%;
+}
+.layer .box {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+  border:  2px #0f0 solid;
+}
+.bbox {
+  position: absolute;
+  border:  2px transparent solid;
+  opacity: 0.7; 
+}
+.bbox:hover {
+  border:  2px #fff solid;
+}
+body {
+  width: 100%;
+}
+

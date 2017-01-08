@@ -1,0 +1,43 @@
+
+cpan Mojolicious
+cpan DBIx::Class
+cpan Mojolicious::Plugin::I18N 
+cpan Mojolicious::Plugin::ServerInfo
+cpan DBD::SQLite
+cpan DBIx::Class::Candy
+cpan DBIx::Class::Schema
+cpan DBIx::Class::DeploymentHandler
+cpan SQL::Translator
+cpan Term::Prompt
+cpan File::Basename
+cpan File::ShareDir
+cpan File::Copy::Recursive
+cpan File::Next
+cpan File::Spec
+cpan File::Spec::Functions
+cpan Getopt::Long
+cpan Encode
+
+cpan Data::Dumper
+cpan Mojolicious::Plugin::DBInfo
+
+cpan Plack::Handler::Apache2
+
+cpan String::Similarity
+cpan PerlIO::gzip
+
+
+If PerlIO::gzip fails to install:
+
+  apt-get install zlib1g-dev
+  PerlIO::gzip
+
+OR
+
+  apt-get install libperlio-gzip-perl
+  
+HELPFUL
+
+  apt-get install sqlite
+  
+  

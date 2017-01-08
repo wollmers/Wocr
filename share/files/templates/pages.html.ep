@@ -1,0 +1,23 @@
+% layout 'default';
+		
+		<div>      
+	       <form class="form-horizontal" action="/page" method="post">
+            <fieldset>
+            	<legend><%= l 'query' %></legend>
+            	<div class="control-group">
+                    <label class="control-label-left"><%= l 'page' %></label>
+                    <div class="controls">
+                        <input name="page" maxlength="30" size="30" id="page" class="required" type="text">
+            	       </div>
+            	</div> 	
+            	<div class="control-group">
+            	    <div class="controls">
+                    	<div class="float_right">
+                            <button type="submit" class="btn btn-primary"><%= l 'search' %> ▶</button>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+                     
+			</form>
+		</div><!-- END VALIDATION GROUP -->

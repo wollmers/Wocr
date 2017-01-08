@@ -1,0 +1,36 @@
+<% my $skin = 'perlish'; =%>
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="/skins/<%= $skin %>/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/skins/<%= $skin %>/css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="/skins/<%= $skin %>/css/wocr.css">
+<link rel="stylesheet" type="text/css" href="/skins/<%= $skin %>/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="/skins/<%= $skin %>/css/octicons.css">
+<link rel="stylesheet" type="text/css" href="/skins/<%= $skin %>/css/editor.css">
+
+<title><%= title %></title>
+
+</head>
+<body>
+
+<%= include 'front/macros/header', skin => $skin %> 
+
+<!-- div class="container" -->        
+                
+<%= content %>
+
+<!-- /div -->
+
+<%= include 'front/macros/footer' %>
+
+<script type="text/javascript" src="/skins/<%= $skin %>/js/jquery.min.js"></script>
+<script type="text/javascript" src="/skins/<%= $skin %>/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/skins/<%= $skin %>/js/cpandatesters.js"></script>
+<script type="text/javascript" src="/skins/<%= $skin %>/js/editor.js"></script>
+
+</body>
+</html>

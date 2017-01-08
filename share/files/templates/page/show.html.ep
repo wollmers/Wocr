@@ -1,0 +1,25 @@
+% layout 'default'; 
+
+  <div class="scan">
+      <img id="scan_image" src="<%= $scan %>" />
+    <div id="layer" class="layer">
+      <!-- div class="box"></div -->
+    </div>
+  </div>
+
+<%== $hocr %>
+
+
+<div class="editbar">
+  <p>
+scale-width: <span id='scale-width'></span><br>
+scale-height: <span id='scale-height'></span><br>
+frame-width: <span id='frame-width'></span><br>
+frame-height: <span id='frame-height'></span><br>
+image-width: <span id='image-width'></span><br>
+image-height: <span id='image-height'></span><br>
+current-wid: <span id='current-wid'></span><br>
+current-oid: <span id='current-oid'></span><br>
+  </p>
+
+</div>

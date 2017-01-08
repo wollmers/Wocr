@@ -1,0 +1,35 @@
+<!-- HEADER -->
+<!-- div class="hidden-xs" style="position: fixed; top: 0; right: 0; border: 0; z-index: 60">
+  <a href="https://github.com/wollmers/Wocr"><img
+    src="/skins/<%= $skin %>/img/forkme_right_orange_ff7600.png"
+    alt="Fork me on GitHub" ></a>
+</div -->
+                         | 
+<div class="navbar-xs">
+	<div class="navbar-primary">
+        <!-- div class="navbar navbar-custom-first navbar-fixed-top"></div -->
+        <nav id="myNavbar" class="navbar navbar-custom-second navbar-fixed-top" role="navigation" style="/*top: 28px;*/ z-index:20">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="http://ocr.bionomen.org/" style="padding-top: 8px; margin: 0">
+                        <span class="mega-octicon octicon-server"></span> ocr.bionomen.org</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="/books/">Books</a></li>
+                        <li><a href="/pages/">Pages</a></li>
+                        <li><a href="/about">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
